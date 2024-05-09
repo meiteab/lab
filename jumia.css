@@ -1,0 +1,129 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 350px;
+} 
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.txt {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.imag {
+    width: 27px;
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 2px;
+
+}
+
+.seach {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+}
+
+.champ {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: 1px solid lightgray;
+    margin-left: 50px;
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.seachicone {
+
+    width: 18px;
+    margin-bottom: 2px;
+    margin-left: 0.1px;
+}
+
+.barreseach {
+    margin-left: 0.1px;
+    border: none;
+    width: 100%;
+    outline: none;
+
+}
+
+.buttom {
+    width: 140px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+    transition: 0.5s;
+    border: none;
+    margin-left: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttom:hover {
+    background-color: rgb(184, 122, 8);
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 1px;
+    cursor: pointer;
+    transition: color 0.5s;
+}
+
+.pictures {
+    width: 10px;
+}
+
+.toconnect {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.aide {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.panier{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.toconnect:hover,
+.aide:hover,
+.panier:hover{
+    color: rgb(209, 209, 49);
+}
